@@ -15,7 +15,7 @@ const port = args["port"] || 3000;
 fs.readFile("./public/index.html", "utf-8", (err,data) =>{
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
-var retdata
+var retdata;
     if (err){
             console.error(err);
             return;
